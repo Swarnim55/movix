@@ -4,4 +4,6 @@
 2. Created a global method to make API CALLS via axios.
 3. Created Redux Store and provided it to React.
 4. Setup Redux Toolkit with store and home slice, initilized apiTesting Function using dispatch.
-5. Setup Routes with Browser Router.
+5. Created Routes with Browser Router, initialized hero banner with search bar and search component.
+6. Used useNavigate() Hook to pass search params and navigate to the search component.
+7. Created Custom Hook useFetch to reduce the use of useEffect and boilerplate code of calling apis.
