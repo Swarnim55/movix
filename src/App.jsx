@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { fetchDataFromAPI } from './utils/api';
 import { useSelector, useDispatch } from 'react-redux';
 
@@ -28,12 +29,17 @@ const App = () => {
   };
 
   return (
-    <>
-      <div className="App" style={{ color: '#fff' }}>
-        App
-        {url?.total_pages}
-      </div>
-    </>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/:mediaType/:id" element={<Details />} />
+        <Route path="/search/:query" element={<SearchResult />} />
+        <Route path="/explore/:mediaType" element={<Explore />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 };
 
