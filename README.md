@@ -9,3 +9,4 @@
 7. Created Custom Hook useFetch to reduce the use of useEffect and boilerplate code of calling apis.
 8. Created Header component, imported react-icons, useNavigate and useLocation to navigate through pages.
 9. Added Footer section, imported react-icons for socials via react-icons.
+10. Created Carousel Section and switch tabs, consumed trending data from TMDB Api with useFetch custom hook.
