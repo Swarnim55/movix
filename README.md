@@ -10,3 +10,4 @@
 8. Created Header component, imported react-icons, useNavigate and useLocation to navigate through pages.
 9. Added Footer section, imported react-icons for socials via react-icons.
 10. Created Carousel Section and switch tabs, consumed trending data from TMDB Api with useFetch custom hook.
+11. Completed Rating Component used React-circular-progress bar to render average vote count and date-js to format the release date.
