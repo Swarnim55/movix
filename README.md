@@ -13,3 +13,4 @@
 11. Completed Rating Component used React-circular-progress bar to render average vote count and date-js to format the release date.
 12. Implemented Promise.All to call multiple API of Movies & TV Shows genre and stored using dispatch to genres, completed carousel slider functionality.
 13. Reused Trending Component for Popular and Top Rated, consumed API and completed Home Page
+14. Created Details Component and consumed api via useFetch custom hook to fetch details of the content.
