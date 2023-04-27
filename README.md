@@ -8,3 +8,4 @@
 6. Used useNavigate() Hook to pass search params and navigate to the search component.
 7. Created Custom Hook useFetch to reduce the use of useEffect and boilerplate code of calling apis.
 8. Created Header component, imported react-icons, useNavigate and useLocation to navigate through pages.
+9. Added Footer section, imported react-icons for socials via react-icons.
